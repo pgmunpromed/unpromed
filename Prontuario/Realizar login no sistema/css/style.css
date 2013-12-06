@@ -1,0 +1,77 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 2% 10%;
+}
+html {
+    overflow: hidden;
+}
+ body {
+
+  
+   background: #fff;
+  
+ 
+}
+h1{
+    font-size:100%; 
+    margin:1Opx 10px;
+    float:left;
+    color:#001;
+    }
+fieldset { 
+ width:0 auto;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;  } 
+	
+#Local_de_acesso_do_Usuario{
+  width: 100%;
+    height:100%;
+    margin:0px 20%; 
+    padding: 0% 0%; 
+   border:0px solid #007;
+   
+    }
+form {
+    width: 260px;
+    padding: 10px 0 0  0;
+    border:2px solid:#ff0;
+    }
+   
+
+.txt{
+height:25px;
+margin:2px 0;
+width:230px;
+background-color:#fff;
+}
+.txt:focus{
+border:this solid #007;
+box-shadow:0 2px 16px #09f;
+-webkit-box-shadow:0 2px 16px #09f;
+-moz-box-shadow:0 2px 16px #09f;
+background-color:#987;
+color:#fff;
+}
+.txt:txt,focus:sb.sb.hover{	
+box-shadow:0 2px 16px #09f;
+-webkit-box-shadow:0 2px 16px #09f;
+-moz-box-shadow:0 2px 16px #09f;
+}
+
+.sb{
+margin:10px 0;
+width:230px;
+height:30px;
+font:400 18px Oswald;
+color:#999;
+background: #111;
+
+}
+  
+
+/*classe de herança*/
+.bradius{
+	-webkit-border-radius:2px;
+	-moz-border-radius:3px;
+         border:1px solid #987;	
+}
